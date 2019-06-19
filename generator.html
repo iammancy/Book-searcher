@@ -16,16 +16,23 @@
         padding-top: 10%;
         width: 80%;
     }
+    .col-6{
+        margin: 0 auto;
+        max-width: 700px;
+        height: 100px;
+    }
     </style>
     <title>Book List</title>
   </head>
   <body >
-    <div class="container h-100 center-cls" id="parent"> 
+    <div class="container h-100 center-cls" > 
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Enter Book Name" name="book">
             <span class="input-group-btn ml-3">
                     <button class="btn btn-primary" type="submit"  onclick="generateBooks()">Go!</button>
             </span>
+        </div>
+        <div class="row " id="parent" >
         </div>
     </div>
     
